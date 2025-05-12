@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #111;
+  background: url(sor.jpg);
   color: #fff;
 }
 
 header {
   text-align: center;
   padding: 2em 1em;
-  background: #222;
+  
 }
 
 h1 {
@@ -18,7 +18,8 @@ h1 {
 
 .halls {
   padding: 2em;
-  background: #1c1c1c;
+  border: 3px solid #111; 
+  
 }
 
 .halls .gallery {
@@ -29,11 +30,12 @@ h1 {
 }
 
 .hall {
-  background: #2a2a2a;
+  
   padding: 1em;
   border-radius: 8px;
   width: 250px;
   text-align: center;
+  background-color: #111;
 }
 
 .hall img {
@@ -42,7 +44,7 @@ h1 {
 }
 
 .booking {
-  background: #181818;
+  
   padding: 2em;
   text-align: center;
 }
@@ -66,7 +68,7 @@ button {
   background: #ff4757;
   color: white;
   cursor: pointer;
-  transition: background 0.3s;
+  
 }
 
 button:hover {
