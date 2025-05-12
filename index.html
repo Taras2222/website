@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Частный Кинозал</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Частный Кинозал</h1>
+    <p>Аренда уютных залов для кино и отдыха</p>
+  </header>
+
+  <section class="halls">
+    <h2>Наши залы</h2>
+    <div class="gallery">
+      <div class="hall">
+        <img src="images/hall1.jpg" alt="Зал 1">
+        <p>Зал "Классика" — до 5 человек</p>
+      </div>
+      <div class="hall">
+        <img src="images/hall2.jpg" alt="Зал 2">
+        <p>Зал "Lounge" — с приставкой и баром</p>
+      </div>
+      <div class="hall">
+        <img src="images/hall3.jpg" alt="Зал 3">
+        <p>Зал "VIP" — до 10 человек с кальяном</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking">
+    <h2>Бронирование</h2>
+    <form>
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="tel" placeholder="Телефон" required>
+      <input type="datetime-local" required>
+      <select>
+        <option>Зал "Классика"</option>
+        <option>Зал "Lounge"</option>
+        <option>Зал "VIP"</option>
+      </select>
+      <button type="submit">Забронировать</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Частный Кинозал. Все права защищены.</p>
+  </footer>
+</body>
+</html>
+
